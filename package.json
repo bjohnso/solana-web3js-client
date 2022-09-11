@@ -1,5 +1,14 @@
 {
+  "scripts": {
+    "build": "tsc --outDir build",
+    "start": "node build/main.js"
+  },
   "devDependencies": {
     "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "@solana/buffer-layout": "^4.0.0",
+    "bs58": "^5.0.0",
+    "buffer": "^6.0.3"
   }
 }
